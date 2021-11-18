@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint xml-builder",
+    "lint-fix": "eslint xml-builder --fix && npm run lint",
     "test": "ts-node xml-builder/xml-builder.ts"
   },
   "keywords": [],
